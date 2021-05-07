@@ -1,0 +1,21 @@
+{
+  "name": "bestown",
+  "version": "1.0.0",
+  "description": "for my ali web",
+  "main": "index.js",
+  "repository": "https://github.com/KylinBug/bestown.git",
+  "author": "KylinBug <chenbufan@foxmail.com>",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "app": "yarn workspace @bestown/app",
+    "common": "yarn workspace @bestown/common",
+    "server": "yarn workspace @bestown/server"
+  }
+}
